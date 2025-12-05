@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./snake.css">
+    <link rel="stylesheet" href="https://konvajs.org/">
+</head>
+<body>
+    <div class="info-panel p-4 rounded-xl flex justify-between items-center mb-4 border border-gray-700 shadow-xl">
+        <div>
+                <span class="text-gray-300 text-sm uppercase tracking-widest">Current Score</span>
+                <div id="scoreGame" class="score-box">0</div>
+        </div>
+            <div class="text-right">
+                <p class="text-gray-400 text-sm">Target: <span class="glow-text">100</span> (Speed Boost)</p>
+                <p class="text-gray-400 text-sm">Current Speed: <span id="gameSpeedDisplay" class="glow-text">200ms</span></p>
+            </div>
+  </div>
+    <canvas class="canvas" width="500px" height="500px"></canvas>
+ <div class="text-center text-gray-500 text-sm mt-4" >
+            Use Arrow Keys (← ↑ → ↓) to play.
+            <h2> Developed by "Mengistu"</h2>
+        </div>
+    <script src="snake.js"></script>
+</body>
+</html>
